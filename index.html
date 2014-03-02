@@ -16,6 +16,7 @@
 
 		<link rel="stylesheet" href="css/reveal.min.css">
 		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+		<link rel="stylesheet" href="css/pinto.css">
 
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -28,6 +29,7 @@
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
+
 	</head>
 
 	<body>
@@ -37,86 +39,144 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>I've Got 99 Problems But CPAN Ain't One</h1>
-				</section>
-
-				<section>
-					<h2>Most of your app is not yours.</h2>
-
-					<aside class="notes"></aside>
-				</section>
-
-				<section>
-					<h2>CPAN has</h2>
-					<h2>122,922 modules.</h2>
+					<h1 class="left">
+					I've Got<br/>
+					99 Problems<br/>
+					But <span class="em">CPAN</span> Ain't One</h1>
 
 					<aside class="notes"></aside>
 				</section>
 
 				<section>
-					<h2>But CPAN is constantly changing.</h2>
+					<h1 class="right">
+						Most of<br/>
+						your app is<br/>
+						<span class="em">not</span> yours.
+					</h1>
 
 					<aside class="notes"></aside>
 				</section>
 
 				<section>
-					<h2>You can never build the same app twice.</h2>
-					<h3>Monday Tuesday Wednesday Thursday Friday</h3>
+					<h1 class="left">
+						CPAN has<br/>
+						<span class="em">122,922</span> modules.
+					</h1>
 
 					<aside class="notes"></aside>
 				</section>
 
 				<section>
-					<h2>Consistency matters a lot.</h2>
+					<h1 class="left">
+						But<br/>
+						CPAN is<br/>
+						<span class="em">changing</span><br/>
+						constantly.
+					</h1>
 
 					<aside class="notes"></aside>
 				</section>
 
 				<section>
-					<h2>Pinto creates a private CPAN.</h2>
+					<h1 class="right">
+						You can never<br/>
+						build the <span class="em">same</span><br/>
+						app twice.
+					</h1>
+
+					<!-- <h3>Monday Tuesday Wednesday Thursday Friday</h3> -->
 
 					<aside class="notes"></aside>
 				</section>
 
 				<section>
-					<h2>It only changes when you want.</h2>
+					<h1 class="left">
+						Consistency<br/>
+						matters<br/>
+						<span class="em">a lot</span>.
+					</h1>
 
 					<aside class="notes"></aside>
 				</section>
 
 				<section>
-					<h2>Build the same app every time.</h2>
+					<h1 class="left">
+						Pinto creates<br/>
+						a <span class="em">private</span><br/>
+						CPAN.
+					</h1>
 
 					<aside class="notes"></aside>
 				</section>
 
 				<section>
-					<h2>Pinto can store your modules too.</h2>
+					<h1 class="right">
+						It changes only<br/>
+						when <span class="em">you</span><br/>
+						want.
+					</h1>
 
 					<aside class="notes"></aside>
 				</section>
 
 				<section>
-					<h2>What's even better than a private CPAN?</h2>
+					<h1 class="left">
+						Build the<br/>
+						same app<br/>
+						<span class="em">every</span> time.
+					</h1>
 
 					<aside class="notes"></aside>
 				</section>
 
 				<section>
-					<h2>Many private CPANs.</h2>
+					<h1 class="right">
+						Pinto can <br/>
+						store <span class="em">your</span><br/>
+						modules too.
+					</h1>
 
 					<aside class="notes"></aside>
 				</section>
 
 				<section>
-					<h2>Pinto can fork, diff, and merge CPANs.</h2>
+					<h1 class="left">
+						What's even <br/>
+						<span class="em">better</span> than a<br/>
+						private CPAN?
+					</h1>
 
 					<aside class="notes"></aside>
 				</section>
 
 				<section>
-					<h2>Use Pinto. One less problem.</h2>
-					<h3>curl -L http://getpinto.stratopan.com | bash </h3>
+					<h1 class="right">
+						Many private<br/>
+						<span class="em">CPANs</span>.<br/>
+						<span class="em">CPANs</span>.<br/>
+						<span class="em">CPANs</span>.<br/>
+						<span class="em">CPANs</span>.<br/>
+					</h1>
+
+					<aside class="notes"></aside>
+				</section>
+
+				<section>
+					<h1 class="left">
+						Pinto can fork,<br/>
+						diff, revert, and<br/>
+						<span class="em">merge</span> CPANs.
+					</h1>
+
+					<aside class="notes"></aside>
+				</section>
+
+				<section>
+					<h1 class="right">
+						Use <span class="em">Pinto</span>.<br/>
+						One less problem.</h1>
+
+					<h3>curl -L <span class="em">http://getpinto.stratopan.com</span> | bash</h3>
 
 					<aside class="notes"></aside>
 				</section>
@@ -133,10 +193,13 @@
 			// Full list of configuration options available here:
 			// https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
-				controls: true,
+				controls: false,
 				progress: true,
 				history: true,
-				center: true,
+				center: false,
+				width: 1440,
+    			height: 900,
+				margin: 0,
 
 				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
 				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none

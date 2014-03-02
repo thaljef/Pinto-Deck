@@ -1,0 +1,24 @@
+h1,h2,h3 {
+	width: 100%;
+}
+
+.right {
+	text-align: right;
+}
+
+.left {
+	text-align: left;
+}
+
+.em {
+	color: #0073c3;
+}
+
+.wrapper {
+	position: relative;
+}
+
+.bottom {
+	position: absolute;
+	bottom: 0;
+}
