@@ -1,24 +1,16 @@
-h1,h2,h3 {
-	width: 100%;
-}
+.reveal h1 { font-size: 4.77em; }
+.reveal h2 { font-size: 3.11em;	}
+.reveal h3 { font-size: 2.55em;	}
+.reveal h4 { font-size: 2em;	}
 
-.right {
+.reveal .right {
 	text-align: right;
 }
 
-.left {
+.reveal .left {
 	text-align: left;
 }
 
-.em {
+.reveal .em {
 	color: #0073c3;
-}
-
-.wrapper {
-	position: relative;
-}
-
-.bottom {
-	position: absolute;
-	bottom: 0;
 }
